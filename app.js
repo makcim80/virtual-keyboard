@@ -91,8 +91,6 @@ function createAppOnPage() {
     containerDiv.append(title);
     const textArea = document.createElement("textarea");
     textArea.classList.add("textarea");
-    textArea.rows = 5;
-    textArea.cols = 50;
     containerDiv.append(textArea);
     const keyboard = document.createElement("div");
     keyboard.classList.add("keyboard");
@@ -115,6 +113,7 @@ function createAppOnPage() {
 }
 createAppOnPage();
 
+const textAreaNode = body.querySelector(".textarea");
 const keyBlocks = body.querySelectorAll(".key");
 
 function showKeyEngCaseDown() {
@@ -196,9 +195,51 @@ function showKeyboardKeys() {
     }
 }
 
-// showKeyboardKeys();
+keyBlocks.forEach((keyBlock, index) => {
+    keyBlock.addEventListener("mousedown", (event) => {
+        const keyDown = event.target.closest(".key");
+
+        keyDown.classList.add("action");
+        if (keyDown.classList.contains("CapsLock")) {
+            if(isKeyCapsLockPressed) {
+                isKeyCapsLockPressed = false;
+                keyDown.classList.remove("action");
+                showKeyboardKeys();
+            } else {
+                isKeyCapsLockPressed = true;
+                showKeyboardKeys();
+            }
+        }
+        if (keyDown.classList.contains("ShiftLeft") || keyDown.classList.contains("ShiftRight")) {
+            if (isKeyShiftPressed) {
+                isKeyTwoShiftPressed = true;
+            }
+            isKeyShiftPressed = true;
+            showKeyboardKeys();
+        }
+        // console.log(event.target.closest(".key").firstElementChild.textContent)
+    })
+})
+
+keyBlocks.forEach((keyBlock, index) => {
+    keyBlock.addEventListener("mouseup", (event) => {
+        const keyUp = event.target.closest(".key");
+
+        if (keyUp.classList.contains("CapsLock")) return;
+        keyUp.classList.remove("action");
+        if (keyUp.classList.contains("ShiftLeft") || keyUp.classList.contains("ShiftRight")) {
+            if (isKeyTwoShiftPressed) {
+                isKeyTwoShiftPressed = false;
+            } else {
+                isKeyShiftPressed = false;
+                showKeyboardKeys();
+            }
+        }
+    })
+})
 
 document.addEventListener("keydown", (event) => {
+    if (arrKeyName.indexOf(event.code) === -1) return;
     body.querySelector(`.${event.code}`).classList.add("action");
     if (event.code === "CapsLock") {
         if(isKeyCapsLockPressed) {
@@ -224,6 +265,7 @@ document.addEventListener("keydown", (event) => {
 })
 
 document.addEventListener("keyup", (event) => {
+    if (arrKeyName.indexOf(event.code) === -1) return;
     if (event.code === "CapsLock") return;
     body.querySelector(`.${event.code}`).classList.remove("action");
     if (event.code === "ShiftLeft" || event.code === "ShiftRight") {
@@ -239,7 +281,7 @@ document.addEventListener("keyup", (event) => {
 // let arr = [];
 document.addEventListener("keydown", (e) => {
     // arr.push(e.key)
-    // console.log(e)
+    console.log(textAreaNode.value)
     // console.log(e.getModifierState("CapsLock"))
 })
 document.addEventListener("keyup", (e) => {
