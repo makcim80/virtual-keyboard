@@ -94,6 +94,7 @@ body {
     background-color: #444;
     border-radius: 3px;
     cursor: pointer;
+    transition: border-radius 0.9s, background-color 1.2s;
 }
 
 .keyboard .key:hover {
@@ -103,6 +104,7 @@ body {
 .keyboard .key.action {
     background-color: #2cfd72;
     border-radius: 50px;
+    transition: border-radius 0.4s, background-color 0.4s;
 }
 
 .keyboard .Backspace,
