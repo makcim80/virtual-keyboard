@@ -73,6 +73,7 @@ body {
     width: 720px;
     display: flex;
     padding: 5px;
+    padding-bottom: 7px;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 6px;
@@ -92,9 +93,10 @@ body {
     text-align: center;
     color: #fff;
     background-color: #444;
-    border-radius: 3px;
+    border-radius: 4px 0 4px 0;
+    box-shadow: 1px 1px 1.5px #2cfd72, 2px 2px 1px 1px #fff;
     cursor: pointer;
-    transition: border-radius 0.9s, background-color 1.2s;
+    transition: border-radius 0.9s, background-color 1.2s, box-shadow 1s;
 }
 
 .keyboard .key:hover {
@@ -103,8 +105,9 @@ body {
 
 .keyboard .key.action {
     background-color: #2cfd72;
+    box-shadow: none;
     border-radius: 50px;
-    transition: border-radius 0.4s, background-color 0.4s;
+    transition: border-radius 0.4s, background-color 0.4s, box-shadow 0.4s;
 }
 
 .keyboard .Backspace,
@@ -148,7 +151,7 @@ body {
 .keyboard .Space {
     width: 330px
 }
-
+/* 
 .hidden {
     display: none
-}
+} */

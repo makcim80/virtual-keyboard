@@ -43,56 +43,56 @@ const arrKey = [
     'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\', 'Del',
     'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'Enter',
     'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'en', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
     'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{', '}', '|', 'Del',
     'CapsLock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', '"', 'Enter',
     'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'En', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
     'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '[', ']', '\\', 'Del',
     'CapsLock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', "'", 'Enter',
     'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', '/', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'EN', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
     'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '{', '}', '|', 'Del',
     'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ':', '"', 'Enter',
     'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', '>', '?', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'eN', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     'ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
     'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '\\', 'Del',
     'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
     'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'ru', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     'Ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
     'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '/', 'Del',
     'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
     'Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'Ru', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     'Ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
     'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '\\', 'Del',
     'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
     'Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', '.', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'RU', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
   [
     'ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
     'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '/', 'Del',
     'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
     'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', ',', ' ▲ ', 'Shift',
-    'Ctrl', 'Win', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
+    'Ctrl', 'rU', 'Alt', ' ', 'Alt', ' ◄ ', ' ▼ ', ' ► ', 'Ctrl',
   ],
 ];
 
@@ -102,11 +102,7 @@ const [
   arrKeyRusCaseDown, arrKeyRusCaseUp, arrKeyRusCaps, arrKeyRusCapsShift,
 ] = arrKey;
 let userLanguage = 'en';
-let isKeyCapsLockPressed = false;
-let isKeyShiftPressed = false;
-let isKeyTwoShiftPressed = false;
-// const isKeyCtrlPressed = false; ///
-// const isKeyAltPressed = false; ///
+let [isKeyCapsLockPressed, isKeyShiftPressed, isKeyTwoShiftPressed] = [false, false, false];
 let cursorPosition = 0;
 const body = document.querySelector('body');
 
@@ -119,6 +115,7 @@ function createAppOnPage() {
   containerDiv.append(title);
   const textArea = document.createElement('textarea');
   textArea.classList.add('textarea');
+  textArea.wrap = 'off';
   containerDiv.append(textArea);
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard');
@@ -144,19 +141,11 @@ createAppOnPage();
 const textAreaNode = body.querySelector('.textarea');
 const keyBlocks = body.querySelectorAll('.key');
 
-// console.log(textAreaNode); ///
-
-textAreaNode.value = 'qwerty'; // simple
-textAreaNode.setSelectionRange(3, 3); ///
-textAreaNode.focus(); ///
-
-// textAreaNode = new TextAreaClass(textAreaNode); ///
-// console.log(textAreaNode);  ///
+textAreaNode.focus();
 
 function showKeyEngCaseDown() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyEngCaseDown[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -164,8 +153,7 @@ function showKeyEngCaseDown() {
 }
 function showKeyEngCaseUp() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyEngCaseUp[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -173,8 +161,7 @@ function showKeyEngCaseUp() {
 }
 function showKeyEngCaps() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyEngCaps[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -182,8 +169,7 @@ function showKeyEngCaps() {
 }
 function showKeyEngCapsShift() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyEngCapsShift[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -191,8 +177,7 @@ function showKeyEngCapsShift() {
 }
 function showKeyRusCaseDown() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyRusCaseDown[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -200,8 +185,7 @@ function showKeyRusCaseDown() {
 }
 function showKeyRusCaseUp() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyRusCaseUp[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -209,8 +193,7 @@ function showKeyRusCaseUp() {
 }
 function showKeyRusCaps() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyRusCaps[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -218,8 +201,7 @@ function showKeyRusCaps() {
 }
 function showKeyRusCapsShift() {
   keyBlocks.forEach((keyBlock, index) => {
-    // keyBlock.textContent = '';
-    keyBlock.firstElementChild.remove();
+    if (keyBlock.firstElementChild) keyBlock.firstElementChild.remove();
     const spanShowingSymbol = document.createElement('span');
     spanShowingSymbol.textContent = `${arrKeyRusCapsShift[index]}`;
     keyBlock.append(spanShowingSymbol);
@@ -312,7 +294,6 @@ function editInTextArea(keyPressed) {
 keyBlocks.forEach((keyBlock) => {
   keyBlock.addEventListener('mousedown', (event) => {
     const keyDown = event.target.closest('.key');
-    cursorPosition = textAreaNode.selectionStart; ///
 
     textAreaNode.focus();
     event.preventDefault();
@@ -359,11 +340,9 @@ keyBlocks.forEach((keyBlock) => {
 
 document.addEventListener('keydown', (event) => {
   const indexKey = arrKeyName.indexOf(event.code);
-  cursorPosition = textAreaNode.selectionStart; ///
 
   textAreaNode.focus();
   event.preventDefault();
-  // if (event.repeat) return;
   if (indexKey === -1) return;
   body.querySelector(`.${event.code}`).classList.add('action');
   if (event.code === 'CapsLock') {
@@ -404,17 +383,3 @@ document.addEventListener('keyup', (event) => {
     }
   }
 });
-
-// let arr = [];
-// document.addEventListener("keydown", (e) => {
-// arr.push(e.key)
-// console.log(textAreaNode.selectionStart)
-// console.log(e.getModifierState("CapsLock"))
-// })
-// document.addEventListener("keyup", (e) => {
-// arr.push(e.key)
-// console.log(e)
-// console.log(textAreaNode.selectionStart)
-// console.log(e.getModifierState("CapsLock"))
-// })
-// console.log(KeyboardEvent.getModifierState("CapsLock"))
